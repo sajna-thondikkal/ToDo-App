@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+<form method="post">
+    {% csrf_token %}
+    <h5> Are You Sure This Task Is Done...?</h5>
+
+    <button type="submit">Confirm</button>
+
+</form>
+
+
+{% endblock %}
